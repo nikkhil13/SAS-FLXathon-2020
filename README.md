@@ -2,7 +2,7 @@
 
 This is the Gitlab page for the team Alpha Bravo Charlie registered for FLXathon 2020.
 
-<img align="center" src="images/ABC.jpg" alt="Banner" width="600" height="400">
+<img align="center" src="Project Files/images/ABC.jpg" alt="Banner" width="600" height="400">
 
 # Uberization of Property and Casualty Insurance.
 
