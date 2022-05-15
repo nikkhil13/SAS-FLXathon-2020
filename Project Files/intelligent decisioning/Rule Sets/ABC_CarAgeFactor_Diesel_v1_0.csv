@@ -1,0 +1,2 @@
+﻿ruleset_id,ruleset_nm,folder_path,ruleset_desc,rule_id,rule_nm,rule_desc,rule_seq_no,conditional,record_rule_fired_flag,datatype,lhs_term,expression,expression_type,expression_order
+2848449e-8e59-49ef-99dd-06058bca77f0,ABC_CarAgeFactor_Diesel,/Public/ABC/RuleSets,,f428c19d-25c6-4fba-afef-9a0cec377a50,Default_assignment_3,assignment,1,if,N,,,"Premium = Premium+(Premium*Car_Age*0.02)",ACTION,1

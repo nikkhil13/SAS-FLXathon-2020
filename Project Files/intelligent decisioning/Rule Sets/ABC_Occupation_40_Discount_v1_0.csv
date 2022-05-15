@@ -1,0 +1,3 @@
+﻿ruleset_id,ruleset_nm,folder_path,ruleset_desc,rule_id,rule_nm,rule_desc,rule_seq_no,conditional,record_rule_fired_flag,datatype,lhs_term,expression,expression_type,expression_order
+6d53d7ef-8610-4495-938f-b5c097c1f068,ABC_Occupation_40_Discount,/Public/ABC/RuleSets,,c68e7e20-db0e-49a8-9eee-b996335cc6ca,Default_assignment_1,assignment,1,if,N,,,"if P_Flexi_Rate < Achieved_Premium / 2 then P_Flexi_Rate=P_Flexi_Rate;
+else P_Flexi_Rate = Achieved_Premium * 0.6;",ACTION,1

@@ -1,0 +1,11 @@
+﻿ruleset_id,ruleset_nm,folder_path,ruleset_desc,rule_id,rule_nm,rule_desc,rule_seq_no,conditional,record_rule_fired_flag,datatype,lhs_term,expression,expression_type,expression_order
+d75f57b4-8904-4f99-999b-ed13b0abb8a6,ABC_Acquisition_Eligibility_Rule,/Public/ABC/RuleSets,,3c685df3-ac8d-422f-a3c9-d7965cb1e243,Default_assignment_5,assignment,1,if,N,boolean,Is_Eligible,"True",ACTION,1
+d75f57b4-8904-4f99-999b-ed13b0abb8a6,ABC_Acquisition_Eligibility_Rule,/Public/ABC/RuleSets,,b7096545-3bd3-465c-b7bf-f434631bb598,Legal Age,,2,if,Y,integer,Age,"< 18",CONDITION,1
+d75f57b4-8904-4f99-999b-ed13b0abb8a6,ABC_Acquisition_Eligibility_Rule,/Public/ABC/RuleSets,,b7096545-3bd3-465c-b7bf-f434631bb598,Legal Age,,2,if,Y,boolean,Is_Eligible,"False",ACTION,1
+d75f57b4-8904-4f99-999b-ed13b0abb8a6,ABC_Acquisition_Eligibility_Rule,/Public/ABC/RuleSets,,d203dd10-7ced-4a78-a2ee-778f4b5dc3c1,Decline Makes,,3,if,Y,string,,"Lookup(""ABC_Decline_Make"",Make)",CONDITION,1
+d75f57b4-8904-4f99-999b-ed13b0abb8a6,ABC_Acquisition_Eligibility_Rule,/Public/ABC/RuleSets,,d203dd10-7ced-4a78-a2ee-778f4b5dc3c1,Decline Makes,,3,if,Y,boolean,Is_Eligible,"False",ACTION,1
+d75f57b4-8904-4f99-999b-ed13b0abb8a6,ABC_Acquisition_Eligibility_Rule,/Public/ABC/RuleSets,,89abfae1-0627-4506-beac-f41592de19f7,Decline RTOs,,4,if,Y,string,,"Lookup(""ABC_Decline_RTO"",RTO_Location)",CONDITION,1
+d75f57b4-8904-4f99-999b-ed13b0abb8a6,ABC_Acquisition_Eligibility_Rule,/Public/ABC/RuleSets,,89abfae1-0627-4506-beac-f41592de19f7,Decline RTOs,,4,if,Y,boolean,Is_Eligible,"False",ACTION,1
+d75f57b4-8904-4f99-999b-ed13b0abb8a6,ABC_Acquisition_Eligibility_Rule,/Public/ABC/RuleSets,,0c0f6c27-fd0a-4b68-9e69-d672db60ab30,Default_rule_4,,5,if,Y,string,FuelType," 'Diesel'",CONDITION,1
+d75f57b4-8904-4f99-999b-ed13b0abb8a6,ABC_Acquisition_Eligibility_Rule,/Public/ABC/RuleSets,,0c0f6c27-fd0a-4b68-9e69-d672db60ab30,Default_rule_4,,5,if,Y,integer,Car_Age,"> 15",CONDITION,2
+d75f57b4-8904-4f99-999b-ed13b0abb8a6,ABC_Acquisition_Eligibility_Rule,/Public/ABC/RuleSets,,0c0f6c27-fd0a-4b68-9e69-d672db60ab30,Default_rule_4,,5,if,Y,boolean,Is_Eligible,"False",ACTION,1

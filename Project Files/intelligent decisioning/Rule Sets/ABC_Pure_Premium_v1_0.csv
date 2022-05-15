@@ -1,0 +1,14 @@
+﻿ruleset_id,ruleset_nm,folder_path,ruleset_desc,rule_id,rule_nm,rule_desc,rule_seq_no,conditional,record_rule_fired_flag,datatype,lhs_term,expression,expression_type,expression_order
+e724c4f4-ecaa-4817-a191-aeb0f9b564b5,ABC_Pure_Premium,/Public/ABC/RuleSets,,712ffb25-6a4d-4e08-a6c8-e953a31bb22b,Default_assignment_8,assignment,1,if,N,decimal,Rate_Car_Age,"LookupValue(""ABC_Rates_Car_Age"",Car_Age)",ACTION,1
+e724c4f4-ecaa-4817-a191-aeb0f9b564b5,ABC_Pure_Premium,/Public/ABC/RuleSets,,2da43879-f920-41f6-941f-cd517d344572,Default_assignment_3,assignment,2,if,N,decimal,Rate_Base,"LookupValue(""ABC_Rates_Base"",'Private')",ACTION,1
+e724c4f4-ecaa-4817-a191-aeb0f9b564b5,ABC_Pure_Premium,/Public/ABC/RuleSets,,2c9dbc88-26ff-4078-bc2d-a3ddfe303e68,Default_assignment_5,assignment,3,if,N,decimal,Rate_CC,"LookupValue(""ABC_Rates_CC"",CC)",ACTION,1
+e724c4f4-ecaa-4817-a191-aeb0f9b564b5,ABC_Pure_Premium,/Public/ABC/RuleSets,,e1fb5b71-48ae-4605-b36d-44dbd80a7714,Default_assignment_6,assignment,4,if,N,decimal,Rate_Make,"LookupValue(""ABC_Rates_Make"",Make)",ACTION,1
+e724c4f4-ecaa-4817-a191-aeb0f9b564b5,ABC_Pure_Premium,/Public/ABC/RuleSets,,4082d82f-e60f-44a0-9e17-42491e2f5628,Default_assignment_7,assignment,5,if,N,decimal,Rate_RTO_Location,"LookupValue(""ABC_Rates_RTO"",RTO_Location)",ACTION,1
+e724c4f4-ecaa-4817-a191-aeb0f9b564b5,ABC_Pure_Premium,/Public/ABC/RuleSets,,1d27c9e4-9a2c-43d2-a8aa-432c0e6d1285,Default_assignment_12,assignment,6,if,N,,,"if missing(Rate_Car_Age) then Rate_Car_Age=1.2;
+if missing(Rate_Base) then Rate_Base=1.2;
+if missing(Rate_CC) then Rate_CC=1.3;
+if missing(Rate_Make) then Rate_Make=0.90;
+if missing(Rate_RTO_Location) then Rate_RTO_Location=1.2;
+Pure_Premium=Rate_Base*Rate_Car_Age*Rate_CC*Rate_Make*Rate_RTO_Location;
+
+",ACTION,1

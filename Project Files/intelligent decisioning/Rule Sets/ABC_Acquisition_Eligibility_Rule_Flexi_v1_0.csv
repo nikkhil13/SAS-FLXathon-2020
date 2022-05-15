@@ -1,0 +1,14 @@
+﻿ruleset_id,ruleset_nm,folder_path,ruleset_desc,rule_id,rule_nm,rule_desc,rule_seq_no,conditional,record_rule_fired_flag,datatype,lhs_term,expression,expression_type,expression_order
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,6186301e-aef9-43ca-905b-affafde5aac1,Default_assignment_5,assignment,1,if,N,boolean,Is_Eligible,"True",ACTION,1
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,46eedb4a-3902-473c-ba55-786232e387b4,Legal Age,,2,if,Y,integer,Age,"< 18",CONDITION,1
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,46eedb4a-3902-473c-ba55-786232e387b4,Legal Age,,2,if,Y,boolean,Is_Eligible,"False",ACTION,1
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,c5f0b9c9-c9ad-43de-a117-ecec9d08b8f2,Decline Makes,,3,if,Y,string,,"Lookup(""ABC_Decline_Make"",Make)",CONDITION,1
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,c5f0b9c9-c9ad-43de-a117-ecec9d08b8f2,Decline Makes,,3,if,Y,boolean,Is_Eligible,"False",ACTION,1
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,0022c356-674e-431d-b0c9-378c041a2aba,Decline RTOs,,4,if,Y,string,,"Lookup(""ABC_Decline_RTO"",RTO_Location)",CONDITION,1
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,0022c356-674e-431d-b0c9-378c041a2aba,Decline RTOs,,4,if,Y,boolean,Is_Eligible,"False",ACTION,1
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,300dae8e-a1d3-4f90-ab73-6a0aeb5aebfd,Default_rule_4,,5,if,Y,string,FuelType," 'Diesel'",CONDITION,1
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,300dae8e-a1d3-4f90-ab73-6a0aeb5aebfd,Default_rule_4,,5,if,Y,integer,Car_Age,"> 9",CONDITION,2
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,300dae8e-a1d3-4f90-ab73-6a0aeb5aebfd,Default_rule_4,,5,if,Y,boolean,Is_Eligible,"False",ACTION,1
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,2e926311-5565-409f-b447-e85c43e43cb1,Default_rule_4_Copy,,6,if,Y,string,FuelType," 'Petrol'",CONDITION,1
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,2e926311-5565-409f-b447-e85c43e43cb1,Default_rule_4_Copy,,6,if,Y,integer,Car_Age,"> 7",CONDITION,2
+41979525-2ded-4e44-b794-9f1ceee2282c,ABC_Acquisition_Eligibility_Rule_Flexi,/Public/ABC/RuleSets,,2e926311-5565-409f-b447-e85c43e43cb1,Default_rule_4_Copy,,6,if,Y,boolean,Is_Eligible,"False",ACTION,1

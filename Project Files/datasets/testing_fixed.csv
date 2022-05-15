@@ -1,0 +1,18 @@
+﻿Age,Car Price,Rating_Category,Income,Occupation,Clm_Freq,Mvr_points,Car_Age,Car_Type,mobile_number,Fuel_Type,CC,Make,RTO_Location,Achieved_Premium,P_Achieved_Premium,Travel_Days,Terrains,terrain_base_rate,terrain_statistical_premium,add_on_premium,Education,Mstatus,Gender
+35,778800,A,44673,Clerical,2,5,2,Sports Car,8670052054,Petrol,5000,BMW,Durg,40009.54,55063.93312,3,Mountain,500,1500,1650,Bachelors,S,F
+34,848892,A,42439,Clerical,2,5,1,Sports Car,6545405534,Hybrid,4000,Nissan,Durg,35548.8,56886.67054,2,Mountain,500,1000,1100,Less High School,S,F
+48,1308432,A,78473,Blue Collar,3,3,1,Sports Car,1262122828,Hybrid,7000,Corvette,Satara,72718.7,58882.65986,3,Mountain,500,1500,1650,Less High School,S,M
+47,1465440,A,73765,Blue Collar,3,3,0,Sports Car,+91 795 7737617,Petrol,7000,Nissan,Satara,89671.25,60337.48287,4,Forest,700,2800,3080,High School,S,M
+26,96672,C,31007,Clerical,1,4,12,Pickup,6720678643,Diesel,3600,Nissan,Gangtok,4992.9,6930.359989,6,Highway,200,1200,1164,High School,S,F
+25,103440,C,30077,Clerical,1,4,11,Pickup,+91 5818283571,Hybrid,4000,Nissan,Gangtok,5241.78,8729.206526,6,Mountain,500,3000,2850,High School,S,F
+24,117924,C,28272,Clerical,1,4,10,Pickup,03938 995158,Diesel,3600,Nissan,Gangtok,4578.3,10519.53282,3,Mountain,500,1500,1440,Bachelors,S,F
+33,417852,B,166836,Manager,1,0,4,SUV,+91 206 4632291,Diesel,3400,Skoda,Amaravati,27763.34,24930.66096,1,Highway,200,200,188,Bachelors,M,F
+32,480528,B,155157,Manager,1,0,3,SUV,08408 286311,Petrol,3400,Audi,Amaravati,23825.28,26822.35757,4,Mountain,500,2000,1940,Bachelors,M,F
+31,547800,B,147399,Manager,1,0,2,SUV,8512961055,Hybrid,3400,Mercedes,Amaravati,21572.19,28520.58454,8,Highway,200,1600,1488,Bachelors,M,F
+27,273036,C,0,Home Maker,1,0,6,SUV,2905512396,Hybrid,3900,Audi,Patiala,16862.86,21474.771,3,Highway,200,600,582,Bachelors,M,F
+26,289416,C,0,Home Maker,1,0,5,SUV,261791909,Petrol,3000,Mercedes,Patiala,17381.1,23248.54084,7,Forest,700,4900,4606,PhD,M,F
+25,315468,C,0,Home Maker,1,0,4,SUV,+91 709 4477020,Diesel,3200,Audi,Patiala,14241.3,25090.57566,3,Highway,200,600,576,PhD,M,F
+53,152832,A,167078,Lawyer,1,2,10,Minivan,04699 040286,Diesel,700,Hyundai,Kochi,8874.34,6372.619952,4,Highway,200,800,720,Bachelors,M,M
+56,631092,A,0,Home Maker,0,6,4,Panel Truck,8286447178,Hybrid,2800,Jeep,Jaipur,41438.28,32790.24556,8,Forest,700,5600,5264,Masters,M,M
+23,481788,C,104562,Professional,4,6,3,SUV,9422203364,Petrol,3900,Land Rover,Nagpur,21626,26895.30156,6,Highway,200,1200,1128,Bachelors,M,M
+44,1347984,A,57163,Blue Collar,1,4,1,Sports Car,9766828294,Petrol,6000,BMW,Akola,86748.75,57485.85558,4,Forest,700,2800,3080,Masters,M,M

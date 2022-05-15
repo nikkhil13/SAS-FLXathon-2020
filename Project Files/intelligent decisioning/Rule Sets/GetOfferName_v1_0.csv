@@ -1,0 +1,2 @@
+﻿ruleset_id,ruleset_nm,folder_path,ruleset_desc,rule_id,rule_nm,rule_desc,rule_seq_no,conditional,record_rule_fired_flag,datatype,lhs_term,expression,expression_type,expression_order
+a37f2007-70fe-4a74-99d4-28475bba8e61,GetOfferName,/Public/ABC/RuleSets,,70934915-eb2f-48ed-bd9d-88df32dd38d1,Default_assignment_1,assignment,1,if,N,,,"OfferName =DATAGRID_FILTEREDGET(ABC_HighProp_OfferGrp_out,'Offer','OfferName','NE','Sorry')",ACTION,1
